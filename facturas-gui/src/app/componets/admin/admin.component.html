@@ -1,0 +1,18 @@
+  <div class='container'>
+    <table class='table table-bordered table-inverse'>
+      <tr>
+        <th>Descripcion del articulo</th>
+        <th>Marca del articulo</th>
+        <th>Cantidad</th>
+        <th>Precio de compra</th>
+        <th>Precio de venta</th>
+      </tr>
+      <tr *ngFor='let factura of facturas'>
+        <td>{{factura.descripcionDelArticulo}}</td>
+        <td>{{factura.marcaDelArticulo}}</td>
+        <td>{{factura.cantidad}}</td>
+        <td>{{factura.precioDeCompra}}</td>
+        <td>{{factura.precioDeVenta}}</td>
+      </tr>
+    </table>
+  </div>
