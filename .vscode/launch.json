@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-FacturasApplication<facturas>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.softwarevision.facturas.FacturasApplication",
+            "projectName": "facturas",
+            "args": ""
+        }
+    ]
+}

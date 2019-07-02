@@ -1,6 +1,6 @@
-package com.SoftwareVision.facturas.Repository;
+package com.softwarevision.facturas.repository;
 
-import com.SoftwareVision.facturas.Model.Facturas;
+import com.softwarevision.facturas.model.Facturas;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

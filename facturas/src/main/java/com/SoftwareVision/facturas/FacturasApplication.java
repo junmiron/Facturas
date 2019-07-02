@@ -1,4 +1,4 @@
-package com.SoftwareVision.facturas;
+package com.softwarevision.facturas;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

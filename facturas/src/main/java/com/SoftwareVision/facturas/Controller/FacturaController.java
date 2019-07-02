@@ -1,7 +1,9 @@
-package com.SoftwareVision.facturas.Controller;
+package com.softwarevision.facturas.controller;
 
 import java.util.List;
 
+import com.softwarevision.facturas.model.Facturas;
+import com.softwarevision.facturas.repository.FacturasRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -14,9 +16,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
-
-import com.SoftwareVision.facturas.Model.Facturas;
-import com.SoftwareVision.facturas.Repository.FacturasRepository;
 
 @RestController 
 @RequestMapping("api/v1/facturas") 

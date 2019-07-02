@@ -1,4 +1,4 @@
-package com.SoftwareVision.facturas.Model;
+package com.softwarevision.facturas.model;
 
 import java.math.BigDecimal;
 

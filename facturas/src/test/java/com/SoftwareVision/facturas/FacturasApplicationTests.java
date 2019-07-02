@@ -1,4 +1,4 @@
-package com.SoftwareVision.facturas;
+package com.softwarevision.facturas;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
