@@ -9,12 +9,14 @@ import { AppComponent } from './app.component';
 import { FacturaService } from './services/factura.service';
 import { AdminComponent } from './components/admin/admin.component';
 import { HomeComponent } from './components/home/home.component';
+import { ViewFacturaComponent } from './components/view-factura/view-factura.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AdminComponent,
-    HomeComponent
+    HomeComponent,
+    ViewFacturaComponent
   ],
   imports: [
     BrowserModule,
